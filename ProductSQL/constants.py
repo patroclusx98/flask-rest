@@ -7,7 +7,7 @@ SORT_ORDER_VALUES = ['ASC', 'DESC']
 
 # Pagination and sorting defaults
 DEFAULT_LIMIT = 30
-DEFAULT_OFFSET = 1
+DEFAULT_OFFSET = 0
 DEFAULT_SORT_BY = 'barcode'
 DEFAULT_SORT_ORDER = 'ASC'
 

@@ -70,7 +70,7 @@ class ProductAPI(Resource):
             ).order_by(
                 get_order_by(ProductModel, sort_by, sort_order)
             ).paginate(
-                page=page,
+                page=page + 1,
                 per_page=per_page,
                 error_out=False
             )
